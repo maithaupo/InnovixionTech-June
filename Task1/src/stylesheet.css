@@ -1,0 +1,31 @@
+body {
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #dfcea1;
+}
+.container {
+    text-align: center;
+    background: rgb(181, 150, 101);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+}
+button {
+    font-family: monospace;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#countdown {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
